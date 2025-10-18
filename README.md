@@ -53,9 +53,13 @@ HI_dictionary.xz → Encoded dictionary
 
 
 ### 2 Decompression
+
 Decompress HI.co using AC2 decompressor
+
 Decoding dictionary (RLE) (HI_dictionary.xz)
+
 Rebuilding sequence structure
+
 Original file restored: HI_restored
 
 
