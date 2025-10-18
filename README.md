@@ -28,5 +28,20 @@ This repository contains the implementation of **GMP (Genetic Algorithm–based 
 
 To compress a protein dataset, run:
 
-```bash
 java GMPCompress <dataset_name>
+
+This will:
+
+Load the dataset HI.fasta (or HI.txt)
+
+Discover recurring amino acid motifs using a Genetic Algorithm
+
+Store pattern–position mappings in a dictionary (𝒟)
+
+Compress the updated database using the integrated compressor (AC2 backend + RLE or LZMA2)
+
+Output files:
+
+HI_compressed.bin → Compressed data
+
+HI_dictionary.bin → Encoded dictionary
