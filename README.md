@@ -29,7 +29,9 @@ This repository contains the implementation of **GMP (Genetic Algorithm–based 
 ### 1️ Compression
 
 To compress a protein dataset, run GMPCompress.java file.
+
 Give dataset name in 
+
 String datasetName = "HI"; -->Dataset name here
 
 
